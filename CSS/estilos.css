@@ -7,7 +7,7 @@ html, body {
 
 #header {
     position: fixed;
-    transition: 0.2s;
+    transition: 0.1s;
     z-index: 100;
 }
 
