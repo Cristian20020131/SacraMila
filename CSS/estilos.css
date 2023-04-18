@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather:wght@300&display=swap');
 html, body {
     margin: 0;
     padding: 0;
@@ -9,6 +10,8 @@ html, body {
     position: fixed;
     transition: 0.1s;
     z-index: 100;
+    font-family: 'Merriweather', serif;
+    font-size: small;
 }
 
 .flexbox{
@@ -52,12 +55,13 @@ html, body {
 }
 
 .footer {
-    margin-bottom:0%;
+    padding-bottom: 20px;
     width: 100%;
-    Background: rgb(0, 0, 0);
+    Background: rgb(36, 36, 36);
     Color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
+    font-family: 'Libre Baskerville', serif;
 }
 .footer div{
     text-align: center;
@@ -81,10 +85,13 @@ html, body {
 .col3{
     width: 100%;
 }
-form input{
+.userInput{
+    font-family: Arial, Helvetica, sans-serif;
+}
+form textarea{
     width: 350px;
     height: 25px;
-    text-align: center;
+    text-align: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 7px;
