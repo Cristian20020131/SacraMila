@@ -56,6 +56,6 @@ btn_Finalizar.addEventListener("click", function(e){
     progressCheck[cont - 1].classList.add("active");
     progressText[cont - 1].classList.add("active");
     cont += 1;
-
+    
     alert("Su reserva ha sido recibida exitosamente")
 });
