@@ -3,6 +3,6 @@ $(document).ready(function(){
         $("#reservahover").css("background-color", "rgb(150 ,100 ,100 )");
     },
     function(){
-        $("#reservahover").css("background-color", "white");
+        $("#reservahover").css("background-color", "rgb(200 ,200 ,200 )");
     }); 
   });

@@ -85,7 +85,7 @@ html, body, main{
 }
 .col1{
     display:block;
-    text-decoration: none;
+    text-decoration-color: white;
     margin-bottom: 10px;
     width: 100%;
 }
