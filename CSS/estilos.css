@@ -200,7 +200,7 @@ form button:hover{
     height: 35px;
     width: 330px;
     margin: 35px 0;
-    margin-left: 1%;
+    margin-left: 1px;
     display: flex;
     position: relative;
 }
