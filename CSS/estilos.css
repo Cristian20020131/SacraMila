@@ -235,7 +235,7 @@ form button:hover{
 
 .form-princ form .pagina .campo button{
     width: 100%;
-    height: calc(100% + 5px);
+    height: calc(100% + 20px);
     margin-top: -20px;
     border: none;
     background: rgb(14, 44, 72);
@@ -323,7 +323,7 @@ form button:hover{
     display: none;
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 76%;
     font-size: 15px;
     transform: translate(-50%, -50%);
 }
