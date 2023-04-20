@@ -14,7 +14,7 @@ html, body, main{
     font-family: 'Merriweather', serif;
 }
 
-#reservahover {
+#reservahover1 #reservahover2 #reservahover3 {
     transition: 0.5s;
 }
 
@@ -46,7 +46,6 @@ html, body, main{
 }
 
 .item{
-    color: rgb(255, 255, 255);
     width: 100%;
     text-align: center;
     font-size: 150%;

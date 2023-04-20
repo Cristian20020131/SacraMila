@@ -1,8 +1,24 @@
 $(document).ready(function(){
-    $("#headerhover").hover(function(){
-        $("#headerhover").css("background-color", "rgb(150 ,100 ,100 )");
+    $("*#headerhover1").hover(function(){
+        $("#headerhover1").css("color", "rgb(200 ,155 ,90 )");
     },
     function(){
-        $("#headerhover").css("background-color", "rgb(200 ,200 ,200 )");
+        $("#headerhover1").css("color", "white");
+    }); 
+
+    $("*#headerhover2").hover(function(){
+        $("#headerhover2").css("color", "rgb(200 ,155 ,90 )");
+    },
+    function(){
+        $("#headerhover2").css("color", "white");
+    }); 
+
+    $("*#headerhover3").hover(function(){
+        $("#headerhover3").css("color", "rgb(200 ,155 ,90 )");
+    },
+    function(){
+        $("#headerhover3").css("color", "white");
     }); 
   });
+
+  
