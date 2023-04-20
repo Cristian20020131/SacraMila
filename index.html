@@ -4,6 +4,9 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
       <link rel="stylesheet" href="CSS/estilos.css">
       <title>SacraMila - El Templo de la milanesa</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="reservahover.js"></script>
+      <script src="headerhover.js"></script>
     </head>
     <body>
         <header>
@@ -11,13 +14,13 @@
                 <a class="item" href="index.html"> 
                   <img src="CSS/logo.png" style="width: 50%;"/>
                 </a>
-                <a class="item" href="conocenos.html">
+                <a class="item" id="headerhover1" href="conocenos.html" style="color: white;">
                   <div class="item">CONOCENOS</div>
                 </a>
-                <a class="item" href="menu.html">
+                <a class="item" id="headerhover2" href="menu.html" style="color: white;">
                   <div class="item">CARTA</div>
                 </a>
-                <a class="item" href="reserva.html">
+                <a class="item" id="headerhover3" href="reserva.html" style="color: white;">
                   <div class="item">RESERVA</div>
                 </a>
               </div>
@@ -79,11 +82,12 @@
                       <br>
                       <textarea class="userInput" placeholder="Mensaje" style="width: 350px; height: 150px;"></textarea>
                       <br>
-                      <button type="submit">Enviar</button>
+                      <button id="botonfooter" type="submit">Enviar</button>
                   </form>
               </div>
           </div>
       </footer>
       <script src="scriptheader.js"></script>
+      <script src="botonformfooter.js"></script>
   </body>
 </html>
