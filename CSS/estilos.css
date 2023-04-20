@@ -11,7 +11,7 @@ html, body, main{
     position: fixed;
     transition: 0.1s;
     z-index: 100;
-    font-family: 'Merriweather', serif;
+        
 }
 
 #reservahover1 #reservahover2 #reservahover3 {
@@ -84,33 +84,40 @@ html, body, main{
     align-items: center;
     font-family: 'Libre Baskerville', serif;
 }
+
 .footer div{
     text-align: center;
 }
+
 .footer div h3{
     font-weight: 300px;
     font-size: 40px;
     margin-bottom: 0px;
     letter-spacing: 2px;
 }
+
 .col1{
     display:block;
     text-decoration-color: rgb(255, 255, 255);
     margin-bottom: 10px;
     width: 100%;
 }
+
 .col2{
     flex-grow: .5;
     width: 100%;
     text-decoration: none;
 }
+
 .col3{
     width: 100%;
     text-decoration: none;
 }
+
 .userInput{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 form textarea{
     width: 350px;
     height: 25px;
@@ -119,19 +126,22 @@ form textarea{
     margin-bottom: 5px;
     border-radius: 7px;
 }
+
 form button{
     background: transparent;
     border: 2px solid rgb(255, 255, 255);
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 7px;
     padding: 10px 10px;
     font-size: 15px;
     cursor: pointer;
 }
+
 form button:hover{
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
 }
+
 /*
 
 ⠀⢀⣒⠒⠆⠤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
